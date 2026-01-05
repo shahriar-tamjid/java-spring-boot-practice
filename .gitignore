@@ -1,8 +1,117 @@
-# Ignore all compiled class files
+############################
+# Java / JVM
+############################
 *.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
 
-# Ignore all compiled output folders
-bin/
-build/
-out/
+############################
+# Build output directories
+############################
+/out/
+/bin/
+/target/
+/build/
+/dist/
+
+############################
+# Maven
+############################
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+############################
+# Gradle
+############################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+############################
+# Eclipse
+############################
+.project
+.classpath
+.settings/
+bin/
+
+############################
+# VS Code
+############################
+.vscode/
+.history/
+
+############################
+# OS-specific files
+############################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################
+# Temporary & backup files
+############################
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# Environment & secrets
+############################
+.env
+.env.*
+*.local
+
+############################
+# Testing & coverage
+############################
+coverage/
+*.exec
+*.ec
+
+############################
+# JUnit / Test reports
+############################
+test-output/
+surefire-reports/
+
+############################
+# Misc
+############################
+*.pid
+*.seed
